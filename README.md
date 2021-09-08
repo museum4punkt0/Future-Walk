@@ -1,41 +1,41 @@
 
 # Future Walk: An interactive listening experience for the Kulturforum and its museums
 
-<img src="Documentation/1242x2688bb-0.png" alt="fw1" width="200"/>
-<img src="Documentation/1242x2688bb-1.png" alt="fw1" width="200"/>
-<img src="Documentation/1242x2688bb-2.png" alt="fw1" width="200"/>
-<img src="Documentation/1242x2688bb-3.png" alt="fw1" width="200"/>
-<img src="Documentation/1242x2688bb-4.png" alt="fw1" width="200"/>
-<img src="Documentation/1242x2688bb-5.png" alt="fw1" width="200"/>
+<img src="Documentation/1242x2688bb-0.png" alt="fw1" width="200"/> <img src="Documentation/1242x2688bb-1.png" alt="fw1" width="200"/> <img src="Documentation/1242x2688bb-2.png" alt="fw1" width="200"/> <img src="Documentation/1242x2688bb-3.png" alt="fw1" width="200"/>
+<img src="Documentation/1242x2688bb-4.png" alt="fw1" width="200"/> <img src="Documentation/1242x2688bb-5.png" alt="fw1" width="200"/>
 
 
 # Table of Contents
 
 1. [Summary](#Summary)
-* [Introdcuction](#Introduction)
-* [Technical Documentation of the Programming](#Technical-Documentation-of-the-Programming)
-* [Unity Project / Working with stories](#Unity-Project-/-Working-with-stories)
-* [Folderstructure](folderstructure.md)
-* [Story Variables - Tags - Story Macros](scripting.md)
-* [Credits](#Credits)
-* [License](#License)
+2. [Introdcuction](#Introduction)
+3. [Technical Documentation of the Programming](#Technical-Documentation-of-the-Programming)
+4. [Unity Project / Working with stories](#Unity-Project-/-Working-with-stories)
+5. [Folderstructure](folderstructure.md)
+6. [Story Variables - Tags - Story Macros](scripting.md)
+7. [Credits](#Credits)
+8. [License](#License)
 
 # Summary
 
-The application __Future Walk__ is a prototype for an interactive information offer on the exhibitions at the Kulturforum and its museums in Berlin. The app is designed as a interactive audioguide with AR moments. A science-fiction story guides the users through 3 museums and the surroundings of the Kulturforum and ask the visitors to help a museum curator from the future through AR interactions. The story is related to the Kulturforum and aims to educate about the history of the place and its museums as well as the exhibitions inside.
-
-immersive location-based speculative design, science fiction, story-telling audio-walk journey through the collection. transmedia, gamification 
-
-
-This iOS/Android Unity project is part of the project museum4punkt0 - Digital Strategies for the Museum of the Future, sub-project __Future Walk. Ein interaktives Hörerlebnis für das Kulturforum und seine Museen__ and was developed in collaboration with __NEEEU Spaces GmbH__.
-
-Further information: [www.museum4punkt0.de/teilprojekt/visitor-journeys-neu-gedacht-digitale-erweiterung-des-museumsbesuchs/](https://www.museum4punkt0.de/teilprojekt/visitor-journeys-neu-gedacht-digitale-erweiterung-des-museumsbesuchs/) and [www.neu.io](www.neu.io).
+The application __Future Walk__ is a native app for an interactive information offer on the exhibitions at the Kulturforum and its museums in Berlin. The app is designed as an interactive audioguide with AR moments. A science-fiction story guides the users through 3 museums and the surroundings of the Kulturforum and ask the visitors to help a museum curator from the future through AR interactions. The story is related to the Kulturforum and aims to educate about the history of the place and its museums as well as the exhibitions inside.
 
 Future Walk opens new ways of interaction and engagement for visitors and reinforces the immersion at the exhibition space.
 
+immersive location-based speculative design, science fiction, story-telling audio-walk journey through the collection. transmedia, gamification 
+
+```diff
+- <-- Why are these keywords here?
+```
+
+This iOS/Android Unity project is part of the project museum4punkt0 - Digital Strategies for the Museum of the Future, sub-project "(De-)Coding Culture. Cultural Competence in Digital Space" of the Staatliche Museen zu Berlin. Further information: [www.museum4punkt0.de/](https://www.museum4punkt0.de/).
+
 The project museum4punkt0 is funded by the Federal Government Commissioner for Culture and the Media in accordance with a resolution issued by the German Bundestag (Parliament of the Federal Republic of Germany).
 
-__TODO: CHECK IF ANY LICENSE SHOULD BE MENTIONED HERE__
+__TODO: CHECK IF ANY LICENSE SHOULD BE MENTIONED HERE__ 
+```diff
+- NO, it is enough to just be mentioned in #License
+```
 
 
 # Introduction
@@ -60,7 +60,7 @@ Unity packages:
 * Native Toolkit - MIT
 * Unity-GeoJSONObject - MIT
 * Unity Toolbag - MIT
-* Fingers Lite
+* Fingers Lite - Unity's standard Unity Asset Store End User License Agreement, free
 * Tween (Digitalruby) - MIT
 
 Additional libraries:
@@ -73,7 +73,7 @@ This manual provides an explanation on how to set up the tool and how to change 
 
 # Technical Documentation of the Programming
 
-This document offers technical details on this repository and act as an intro guide to the code. It is aimed at anyone trying to understand what the code is doing. The app will compile but will only show the content of an example project unless the content of project is changed.
+This document offers technical details on this repository and act as an intro guide to the code. It is aimed at anyone trying to understand what the code is doing. The app will compile but will only show the content of an example project unless the content of the project is changed.
 
 ## General Structure and Remarks
 
@@ -152,9 +152,9 @@ This project features a granular synthesizer for the background music. The code 
 
 The class `NotificationController` handles multiple `AudioNotificationPlayer` and allows to start playing back a preloaded audio notification. `AudioNotificationPlayer` provides slots for two languages and 4 samplerates: 24kHz, 32kHz, 44.1kHz, 48kHz.
 It also calls `NativeToolkit.Vibrate()` for "ping" notifications, which lets the device vibrate if possible (see comments in souce file).
-
-TODO: explain interrupt1 interrupt5
-
+```diff
+- TODO: explain interrupt1 interrupt5
+```
 ##### Background mode and threading
 
 To maintain execution of the story logic even if the app is in background mode (e.g. the screen is turned off) the story runs on its own thread. This is problematic as Unity is not thread safe and calls to it may fail. Due to this restriction the loading of files (e.g. audio) can only be done when the app is in foreground and has the focus. The __Future Walk__ is therefore made in a way that the user is prompted everytime a new audio file needs to be loaded.
@@ -287,12 +287,11 @@ Please look at the Project for more details.
 
 # Credits
 
-__TODO:__ check this with Sandro
 Contracting entity: Staatliche Museen zu Berlin - Preußischer Kulturbesitz
 
 Authorship: Staatliche Museen zu Berlin - Preußischer Kulturbesitz / NEEEU Spaces GmbH
 
-This manual has been developed by museum4punkt0 and NEEEU Spaces GmbH in the context of the AR Interactive Tour Guide project.
+This manual has been developed by museum4punkt0 and NEEEU Spaces GmbH in the context of the Future Walk project within museum4punkt0, sub-project "(De-)Coding Culture. Cultural Competence in Digital Space" of the Staatliche Museen zu Berlin.
 
 Contact Information for Project Responsibles
 
@@ -303,9 +302,7 @@ NEEEU Spaces GmbH  – Javier Soto Morrás: j@neu.io - hello@neu.io
 
 # License
 
-__TODO__ CHECK LICENSES
-
-This repository contains the open source parts of the museum4punkt0 AR Interactive Guide project for the Kulturforum Berlin. In order to run this project, you need to add the closed-source third-party library:
+This repository contains the open source parts of the museum4punkt0 Future Walk project for the Kulturforum Berlin. In order to run this project, you need to add the closed-source third-party library:
 
 https://assetstore.unity.com/packages/tools/input-management/fingers-lite-free-finger-touch-gestures-for-unity-64276
 
@@ -315,7 +312,7 @@ All other third party libraries contain their own permissive open source licence
 
 
 MIT License
-Copyright © 2020, museum4punkt0 / NEEEU Spaces GmbH
+Copyright © 2020, Staatliche Museen zu Berlin - Preußischer Kulturbesitz / NEEEU Spaces GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
