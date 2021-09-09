@@ -22,20 +22,9 @@ The application __Future Walk__ is a native app for an interactive information o
 
 Future Walk opens new ways of interaction and engagement for visitors and reinforces the immersion at the exhibition space.
 
-immersive location-based speculative design, science fiction, story-telling audio-walk journey through the collection. transmedia, gamification 
-
-```diff
-- <-- Why are these keywords here?
-```
-
 This iOS/Android Unity project is part of the project museum4punkt0 - Digital Strategies for the Museum of the Future, sub-project "(De-)Coding Culture. Cultural Competence in Digital Space" of the Staatliche Museen zu Berlin. Further information: [www.museum4punkt0.de/](https://www.museum4punkt0.de/).
 
 The project museum4punkt0 is funded by the Federal Government Commissioner for Culture and the Media in accordance with a resolution issued by the German Bundestag (Parliament of the Federal Republic of Germany).
-
-__TODO: CHECK IF ANY LICENSE SHOULD BE MENTIONED HERE__ 
-```diff
-- NO, it is enough to just be mentioned in #License
-```
 
 
 # Introduction
@@ -152,9 +141,7 @@ This project features a granular synthesizer for the background music. The code 
 
 The class `NotificationController` handles multiple `AudioNotificationPlayer` and allows to start playing back a preloaded audio notification. `AudioNotificationPlayer` provides slots for two languages and 4 samplerates: 24kHz, 32kHz, 44.1kHz, 48kHz.
 It also calls `NativeToolkit.Vibrate()` for "ping" notifications, which lets the device vibrate if possible (see comments in souce file).
-```diff
-- TODO: explain interrupt1 interrupt5
-```
+
 ##### Background mode and threading
 
 To maintain execution of the story logic even if the app is in background mode (e.g. the screen is turned off) the story runs on its own thread. This is problematic as Unity is not thread safe and calls to it may fail. Due to this restriction the loading of files (e.g. audio) can only be done when the app is in foreground and has the focus. The __Future Walk__ is therefore made in a way that the user is prompted everytime a new audio file needs to be loaded.
