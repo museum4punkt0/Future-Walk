@@ -1,0 +1,1140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &691974743797500165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2830541399272366857}
+  - component: {fileID: 4319159727845983545}
+  - component: {fileID: 2130892230835317089}
+  - component: {fileID: 1674651952974579655}
+  - component: {fileID: 8125073703942434311}
+  m_Layer: 5
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2830541399272366857
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691974743797500165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7393398771658201833}
+  m_Father: {fileID: 5818255998246766652}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 311.2, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4319159727845983545
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691974743797500165}
+  m_CullTransparentMesh: 0
+--- !u!114 &2130892230835317089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691974743797500165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1674651952974579655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691974743797500165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 5278328762344526932}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 7393398771658201833}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8125073703942434311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691974743797500165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: 659.05
+  m_LayoutPriority: 1
+--- !u!1 &1581665496580020381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7393398771658201833}
+  - component: {fileID: 5126081304231196544}
+  - component: {fileID: 5717772437920315628}
+  - component: {fileID: 2360886256096705189}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7393398771658201833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581665496580020381}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5278328762344526932}
+  m_Father: {fileID: 2830541399272366857}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &5126081304231196544
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581665496580020381}
+  m_CullTransparentMesh: 0
+--- !u!114 &5717772437920315628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581665496580020381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2360886256096705189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581665496580020381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!1 &1889566074963433702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5278328762344526932}
+  - component: {fileID: 5704545354755546737}
+  - component: {fileID: 1740479942533878713}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5278328762344526932
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889566074963433702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5818255999153846858}
+  - {fileID: 5818255999254171260}
+  - {fileID: 2921006816054162956}
+  m_Father: {fileID: 7393398771658201833}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &5704545354755546737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889566074963433702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &1740479942533878713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889566074963433702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 8
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+--- !u!1 &5512435663917413343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2921006816054162956}
+  - component: {fileID: 6193379693811809390}
+  - component: {fileID: 7217559395949769176}
+  - component: {fileID: 797845396207304553}
+  m_Layer: 5
+  m_Name: Text EN
+  m_TagString: EN
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2921006816054162956
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5512435663917413343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5278328762344526932}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 8, y: 0}
+  m_SizeDelta: {x: 286.2, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &6193379693811809390
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5512435663917413343}
+  m_CullTransparentMesh: 0
+--- !u!114 &7217559395949769176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5512435663917413343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.68235296, g: 0.68235296, b: 0.68235296, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b39ad7c4caf634be89bdde7cf0e7940f, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: "<b>Privacy Policy</b>\n\n\u2022 1. Why does the Staatliche Museen zu Berlin
+    utilize data?\n\u2022 2. What rights do users of our app have?\n\u2022 3. What
+    data are collected?\n\u2022 4. Who is responsible for content and maintenance,
+    and who looks after data protection?\n\u2022 5. Changes to the Privacy Policy
+    \n\nThe Staatliche Museen zu Berlin (Berlin State Museums) \u2013 Preussischer
+    Kulturbesitz (Prussian Cultural Heritage Foundation) \u2013 is committed to handling
+    your personal data in a responsible manner and to providing transparency about
+    its use. To this end, the following information will outline:\n\n\u2022 why the
+    Staatliche Museen zu Berlin collects and stores data,\n\u2022 what rights users
+    of this app of the Staatliche Museen zu Berlin have,\n\u2022 how the Staatliche
+    Museen zu Berlin collects data and which data it retains,\n\u2022 who is responsible
+    for these webpages and their data privacy policies\n\n<b>1. Why does the Staatliche
+    Museen zu Berlin utilize data?</b>\nAs a general rule, we collect and use personal
+    data related to our users only to the extent that this is necessary for us to
+    ensure the functionality of the app and to deliver our content and services.
+    For example, it is necessary for our location based services to temporarily use
+    your GPS position. This data will be erased as soon as it is no longer necessary.
+    Whenever you are requested to use your camera or Bluetooth capabilities there
+    will be no data stored on your device.\n\n<b>2. What rights do users of our app
+    have?</b>\nIn relation to personal data and our website, you have the following
+    rights, as defined by the EU\u2019s General Data Protection Regulation:\n\u2022
+    the right of access by the data subject (art. 15 GDPR),\n\u2022 right to rectification\_and
+    erasure (art. 16&17 GDPR), ,\n\u2022 the right to restriction of processing (art.
+    18 GDPR),\n\u2022 the right to object to processing (art. 21 GDPR),\n\u2022 the
+    right to data portability (art. 20)\n\nAdditionally, you have the right to make
+    a complaint to a data privacy regulating body about the way we have processed
+    your personal data (art. 77 GDPR). For the Staatliche Museen zu Berlin, the Federal
+    Commissioner for Data Protection and Freedom of Information (BfDI) is the relevant
+    body.\n\n<b>3. What data are collected?</b>\nNo GDPR relevant data will be stored
+    on your device.\n\n<b>4. Who is responsible for content and maintenance, and
+    who looks after data protection?</b>\nThe Stiftung Preussischer Kulturbesitz,
+    legally represented by the president, Prof. Dr. hc. mult. Hermann Parzinger,
+    is responsible for data protection on these webpages.\n\nStiftung Preussischer
+    Kulturbesitz\nVon-der-Heydt-Stra\xDFe 16-18\n10785 Berlin\nGermany\n\nPhone:
+    +49 (0)30 266 412889\nE-Mail: info[at]hv.spk-berlin.de\nWebsite: www.preussischer-kulturbesitz.de\n\nFor
+    questions regarding data protection, the Stiftung Preussischer Kulturbesitz has
+    a data protection officer whom you can contact at our postal address (addressed
+    to the \u201Cdata protection officer\u201D) or at Datenschutzbeauftragte[at]hv.spk-berlin.de\n\_\n<b>5.
+    Changes to the Privacy Policy</b>\nThe Staatliche Museen zu Berlin reserves the
+    right to adapt this policy to meet technological developments and changes to
+    legal frameworks. \_The date of the most recent version of this data protection
+    policy can be found at the end of this document.\n\nDate: June 2021\n"
+--- !u!114 &797845396207304553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5512435663917413343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1 &5818255998246766651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818255998246766652}
+  - component: {fileID: 5818255998246766655}
+  - component: {fileID: 5818255998246766653}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5818255998246766652
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998246766651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6043160058164658888}
+  - {fileID: 2830541399272366857}
+  m_Father: {fileID: 5818255998387085513}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5818255998246766655
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998246766651}
+  m_CullTransparentMesh: 0
+--- !u!114 &5818255998246766653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998246766651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 28
+    m_Right: 28
+    m_Top: 70
+    m_Bottom: 20
+  m_ChildAlignment: 1
+  m_Spacing: -30.19
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+--- !u!1 &5818255998387085512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818255998387085513}
+  - component: {fileID: 5818255998387085515}
+  - component: {fileID: 5818255998387085514}
+  - component: {fileID: 5818255998387085517}
+  - component: {fileID: 5818255998387085516}
+  m_Layer: 5
+  m_Name: DataPrivacy
+  m_TagString: initiallyHidden
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5818255998387085513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998387085512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5818255998246766652}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000014901161, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &5818255998387085515
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998387085512}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 310
+  m_TargetDisplay: 0
+--- !u!114 &5818255998387085514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998387085512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!222 &5818255998387085517
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998387085512}
+  m_CullTransparentMesh: 0
+--- !u!114 &5818255998387085516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255998387085512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.07058824, g: 0.07058824, b: 0.07058824, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5818255999153846857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818255999153846858}
+  m_Layer: 5
+  m_Name: TitleContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5818255999153846858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999153846857}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5818256000274953238}
+  - {fileID: 5818255999864424189}
+  m_Father: {fileID: 5278328762344526932}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &5818255999254171259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818255999254171260}
+  - component: {fileID: 5818255999254171262}
+  - component: {fileID: 5818255999254171261}
+  - component: {fileID: 2435811716126082617}
+  m_Layer: 5
+  m_Name: Text DE
+  m_TagString: DE
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5818255999254171260
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999254171259}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5278328762344526932}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 8, y: 0}
+  m_SizeDelta: {x: 286.2, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &5818255999254171262
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999254171259}
+  m_CullTransparentMesh: 0
+--- !u!114 &5818255999254171261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999254171259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.68235296, g: 0.68235296, b: 0.68235296, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b39ad7c4caf634be89bdde7cf0e7940f, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: "<b>Datenschutz in der App \u201EFuture Walk\u201C</b>\n\n\u2022 1. Warum
+    nutzen die Staatlichen Museen zu Berlin Ihre Daten in dieser Anwendung?\n\u2022
+    2. Welche Rechte haben Nutzer dieser App?\n\u2022 3. Welche Daten werden erhoben?\n\u2022
+    4. Wer ist f\xFCr Inhalte und Pflege dieser App verantwortlich und wer k\xFCmmert
+    sich um den Datenschutz?\n\u2022 5. \xC4nderung der Datenschutzerkl\xE4rung\n\nEs
+    ist den Staatlichen Museen zu Berlin \u2013 Preu\xDFischer Kulturbesitz ein wichtiges
+    Anliegen, verantwortungsvoll mit Ihren pers\xF6nlichen Daten umzugehen. Daher
+    wird in den folgenden Abschnitten erl\xE4utert,\n\n\u2022 warum die Staatlichen
+    Museen zu Berlin Daten erheben und speichern,\n\u2022 welche Rechte Nutzer dieser
+    App der Staatlichen Museen zu Berlin haben,\n\u2022 wie die Staatlichen Museen
+    zu Berlin die Daten erheben und welche Daten sie speichern,\n\u2022 wer f\xFCr
+    das Webangebot und den Datenschutz verantwortlich ist.\n\n<b>1. Warum nutzen
+    die Staatlichen Museen zu Berlin Ihre Daten in dieser Anwendung?</b>\nWir erheben
+    und verwenden personenbezogene Daten unserer Nutzer grunds\xE4tzlich nur, soweit
+    dies zur Bereitstellung funktionsf\xE4higer Anwendungen sowie unserer Inhalte
+    und Leistungen erforderlich ist. Zum Beispiel ist die Nutzung der GPS-Daten durch
+    das System technisch notwendig, um die ortsbezogenen Funktionen der Anwendung
+    zu erm\xF6glichen. Die Daten werden jedoch nicht gespeichert. Bei der Verwendung
+    der Kamera oder der Bluetooth-Sensoren werden ebenfalls keine Daten auf dem Device
+    abgespeichert.\n\n<b>2. Welche Rechte haben Nutzer dieser App?</b>\nIn Bezug
+    auf Ihre personenbezogenen Daten, sofern sie erhoben wurden, haben Sie uns gegen\xFCber
+    folgende Rechte:\n\u2022 das Recht auf Auskunft (Art. 15 DSGVO),\n\u2022 das
+    Recht auf Berichtigung und L\xF6schung (Art. 16+17 DSGVO),\n\u2022 das Recht
+    auf Einschr\xE4nkung der Verarbeitung (Art. 18 DSGVO),\n\u2022 das Recht auf
+    Widerspruch gegen die Verarbeitung (Art. 21 DSGVO),\n\u2022 das Recht auf Daten\xFCbertragbarkeit
+    (Art. 20).\n\nSie haben zus\xE4tzlich das Recht, sich bei einer Datenschutz-Aufsichtsbeh\xF6rde
+    \xFCber die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren
+    (Art. 77 DSGVO). F\xFCr die Staatlichen Museen zu Berlin ist die Bundesbeauftragte
+    f\xFCr Datenschutz und Informationsfreiheit (BfDI) zust\xE4ndig.\n\n<b>3. Welche
+    Daten werden erhoben?</b>\nEs werden keine personenbezogenen Daten gespeichert.\n\n<b>4.
+    Wer ist f\xFCr Inhalte und Pflege dieser App verantwortlich und wer k\xFCmmert
+    sich um den Datenschutz?</b>\nF\xFCr dieses Webangebot verantwortlich im Sinne
+    des Datenschutzes ist die Stiftung Preu\xDFischer Kulturbesitz, gesetzlich vertreten
+    durch Prof. Dr. hc. mult. Hermann Parzinger.\n\nStiftung Preu\xDFischer Kulturbesitz\nVon-der-Heydt-Stra\xDFe
+    16-18\n10785 Berlin\n\nTelefon: +49 (0)30 266 412889\nE-Mail: info[at]hv.spk-berlin.de\nWebsite:
+    www.preussischer-kulturbesitz.de\n\nF\xFCr Fragen zum Bereich Datenschutz gibt
+    es in der Stiftung Preu\xDFischer Kulturbesitz eine Datenschutzbeauftragte als
+    Kontaktperson, die Sie unter der vorgenannten Postanschrift mit dem Zusatz \"Datenschutzbeauftragte\"
+    oder \xFCber Datenschutzbeauftragte[at]hv.spk-berlin.de erreichen k\xF6nnen.\n\n<b>5.
+    \xC4nderung der Datenschutzerkl\xE4rung</b>\nDie Staatlichen Museen zu Berlin
+    behalten sich vor, die Datenschutzerkl\xE4rung entsprechend der technischen Weiterentwicklung
+    und ver\xE4nderter gesetzlicher Rahmenbedingungen anzupassen. Den jeweiligen
+    Stand dieser Datenschutzerkl\xE4rung finden Sie am Ende der Erkl\xE4rung.\n\nStand:
+    June 2021\n"
+--- !u!114 &2435811716126082617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999254171259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1 &5818255999864424188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818255999864424189}
+  - component: {fileID: 5818255999864424191}
+  - component: {fileID: 5818255999864424190}
+  m_Layer: 5
+  m_Name: "\xFCber"
+  m_TagString: DE
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5818255999864424189
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999864424188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5818255999153846858}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &5818255999864424191
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999864424188}
+  m_CullTransparentMesh: 0
+--- !u!114 &5818255999864424190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818255999864424188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 1de42c3d1b59d4d4e82b92b1e5adb986, type: 3}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Data Privacy
+
+'
+--- !u!1 &5818256000274953237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818256000274953238}
+  - component: {fileID: 5818256000274953240}
+  - component: {fileID: 5818256000274953239}
+  m_Layer: 5
+  m_Name: about
+  m_TagString: EN
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5818256000274953238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818256000274953237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5818255999153846858}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &5818256000274953240
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818256000274953237}
+  m_CullTransparentMesh: 0
+--- !u!114 &5818256000274953239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818256000274953237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 1de42c3d1b59d4d4e82b92b1e5adb986, type: 3}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Data Privacy
+--- !u!114 &5818255999823262833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7585154409052055386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!1001 &5818256000176650259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5818255998246766652}
+    m_Modifications:
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -36.19995
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 319
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545788486876951882, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.80000305
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178628787528359753, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_Name
+      value: BackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734383645860510929, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.80000305
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263018955041299905, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263018955041299905, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263018955041299905, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263018955041299905, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5818255998387085512}
+    - target: {fileID: 5263018955041299905, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263018955041299905, guid: b6cb373fa0a1244979ae4430d642de3d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6cb373fa0a1244979ae4430d642de3d, type: 3}
+--- !u!224 &6043160058164658888 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 244046567918254811, guid: b6cb373fa0a1244979ae4430d642de3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5818256000176650259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7585154409052055386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4178628787528359753, guid: b6cb373fa0a1244979ae4430d642de3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5818256000176650259}
+  m_PrefabAsset: {fileID: 0}

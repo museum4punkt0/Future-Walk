@@ -1,0 +1,2735 @@
+{
+    "console": [
+        {
+            "type": "message",
+            "value": "jQuery.Deferred exception: undefined is not a constructor (evaluating 'Number.isNaN(t)') includes@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:3712\nt@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:19933\nfile:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:40621\nsome@[native code]\napply@[native code]\ncall@[native code]\ncall@[native code]\nCall@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:263:4450\nfile:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:263:18801\nr@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:40542\na@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:41837\na@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:45808\ne@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:56837\nfile:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:266:54045\nrender@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:267:486\nc@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:269:3813\nrenderInto@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:269:3254\nu@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:269:8919\ngoToPassage@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:269:9309\nfile:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:270:16874\nf@file:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:253:24025\nfile:///Users/inx/Documents/_neeeu/audiowalk/_src/140_kf_audiowalk/Assets/Resources/project/A_Onboarding.html:253:36747 undefined"
+        }
+    ],
+    "result": {
+        "passages": [
+            {
+                "Name": "Start",
+                "Pid": "1",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "checkBluetoothOn:",
+                        "name": "checkbluetoothon",
+                        "text": "(checkBluetoothOn:)",
+                        "tokens": [
+                            {
+                                "text": "checkBluetoothOn:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $notificationcount to 0",
+                        "name": "set",
+                        "text": "(set: $notificationcount to 0)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "notificationcount",
+                                "text": "$notificationcount",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n<a href=\"motoko1\">\n\nGreetings!\n\nMy name is Motoko.\n\nI am your artificially intelligent robot guide.\n\nI will be helping you through your visit at the Kulturforum today.\n\nFirst things first: Can you hear me okay?\n\n</a>\n\n[[Yes, I can.->audioOK]]\n[[Did you say something?->audioNotOk]]\n\n",
+                        "text": "[\n\n<a href=\"motoko1\">\n\nGreetings!\n\nMy name is Motoko.\n\nI am your artificially intelligent robot guide.\n\nI will be helping you through your visit at the Kulturforum today.\n\nFirst things first: Can you hear me okay?\n\n</a>\n\n[[Yes, I can.->audioOK]]\n[[Did you say something?->audioNotOk]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "<a href=\"motoko1\">",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Greetings!",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "My name is Motoko.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I am your artificially intelligent robot guide.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I will be helping you through your visit at the Kulturforum today.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "First things first: Can you hear me okay?",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "</a>",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Yes, I can.\",\"audioOK\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Yes, I can.\",\"audioOK\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Yes, I can.",
+                                        "text": "\"Yes, I can.\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "audioOK",
+                                        "text": "\"audioOK\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Did you say something?\",\"audioNotOk\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Did you say something?\",\"audioNotOk\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Did you say something?",
+                                        "text": "\"Did you say something?\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "audioNotOk",
+                                        "text": "\"audioNotOk\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n<a href=\"motoko1\">\n\nHallo!\n\nMein Name ist Motoko.\n\nIch bin Ihr KI-Roboterguide.\n\nIch werde Sie heute bei Ihrem Besuch im Kulturforum begleiten.\n\nBevor wir mit der Tour beginnen habe ich noch ein paar Fragen an Sie. \n\nKönnen Sie mich gut hören?\n\n</a>\n\n[[Ja.->audioOK]]\n[[Wie bitte?->audioNotOk]]\n\n",
+                        "text": "[\n\n<a href=\"motoko1\">\n\nHallo!\n\nMein Name ist Motoko.\n\nIch bin Ihr KI-Roboterguide.\n\nIch werde Sie heute bei Ihrem Besuch im Kulturforum begleiten.\n\nBevor wir mit der Tour beginnen habe ich noch ein paar Fragen an Sie. \n\nKönnen Sie mich gut hören?\n\n</a>\n\n[[Ja.->audioOK]]\n[[Wie bitte?->audioNotOk]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "<a href=\"motoko1\">",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Hallo!",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Mein Name ist Motoko.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Ich bin Ihr KI-Roboterguide.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Ich werde Sie heute bei Ihrem Besuch im Kulturforum begleiten.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Bevor wir mit der Tour beginnen habe ich noch ein paar Fragen an Sie. ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Können Sie mich gut hören?",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "</a>",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Ja.\",\"audioOK\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Ja.\",\"audioOK\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Ja.",
+                                        "text": "\"Ja.\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "audioOK",
+                                        "text": "\"audioOK\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Wie bitte?\",\"audioNotOk\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Wie bitte?\",\"audioNotOk\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Wie bitte?",
+                                        "text": "\"Wie bitte?\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "audioNotOk",
+                                        "text": "\"audioNotOk\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "audioOK",
+                "Pid": "2",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n<a href=\"motoko2\">\n\nThat is excellent.\n\nNext I need to ask you for a few permissions.\n\nI will be switching to text now.\n\n</a>\n\nThis app will only store your individual progress in the experience on your device.\n\nIt will never share your data with any third parties.\n\n",
+                        "text": "[\n\n<a href=\"motoko2\">\n\nThat is excellent.\n\nNext I need to ask you for a few permissions.\n\nI will be switching to text now.\n\n</a>\n\nThis app will only store your individual progress in the experience on your device.\n\nIt will never share your data with any third parties.\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "<a href=\"motoko2\">",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "That is excellent.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Next I need to ask you for a few permissions.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I will be switching to text now.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "</a>",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "This app will only store your individual progress in the experience on your device.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "It will never share your data with any third parties.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n<a href=\"motoko2\">\n\nWunderbar.\n\nAls nächstes muss ich Sie um ein paar technische Freigaben bitten.\n\nHierzu wechsle ich jetzt in den Nachrichtenmodus.\n\n</a>\n\nDiese App speichert Ihren individuellen Fortschritt im Verlauf der Anwendung auf Ihrem Gerät.\n\nIhre Daten werden niemals an Dritte weitergegeben.\n\n",
+                        "text": "[\n\n<a href=\"motoko2\">\n\nWunderbar.\n\nAls nächstes muss ich Sie um ein paar technische Freigaben bitten.\n\nHierzu wechsle ich jetzt in den Nachrichtenmodus.\n\n</a>\n\nDiese App speichert Ihren individuellen Fortschritt im Verlauf der Anwendung auf Ihrem Gerät.\n\nIhre Daten werden niemals an Dritte weitergegeben.\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "<a href=\"motoko2\">",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Wunderbar.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Als nächstes muss ich Sie um ein paar technische Freigaben bitten.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Hierzu wechsle ich jetzt in den Nachrichtenmodus.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "</a>",
+                                "type": "tag"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Diese App speichert Ihren individuellen Fortschritt im Verlauf der Anwendung auf Ihrem Gerät.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Ihre Daten werden niemals an Dritte weitergegeben.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": " check location ",
+                        "text": "<!-- check location -->",
+                        "tokens": [
+                            {
+                                "text": " check location ",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "comment"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: (checkLocationEnabled:)",
+                        "name": "if",
+                        "text": "(if: (checkLocationEnabled:))",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "checkLocationEnabled:",
+                                "name": "checklocationenabled",
+                                "text": "(checkLocationEnabled:)",
+                                "tokens": [
+                                    {
+                                        "text": "checkLocationEnabled:",
+                                        "type": "macroName"
+                                    }
+                                ],
+                                "type": "macro"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n<!-- location enabled -->\n\n(if: (checkLocationPermission:))[\n\n<!-- all ok - continue -->\n\n(goto: \"CheckBluetoothOn\")\n[[CheckBluetoothOn]]\n\n]\n",
+                        "text": "[\n\n<!-- location enabled -->\n\n(if: (checkLocationPermission:))[\n\n<!-- all ok - continue -->\n\n(goto: \"CheckBluetoothOn\")\n[[CheckBluetoothOn]]\n\n]\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": " location enabled ",
+                                "text": "<!-- location enabled -->",
+                                "tokens": [
+                                    {
+                                        "text": " location enabled ",
+                                        "type": "text"
+                                    }
+                                ],
+                                "type": "comment"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "if: (checkLocationPermission:)",
+                                "name": "if",
+                                "text": "(if: (checkLocationPermission:))",
+                                "tokens": [
+                                    {
+                                        "text": "if:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "innerText": "checkLocationPermission:",
+                                        "name": "checklocationpermission",
+                                        "text": "(checkLocationPermission:)",
+                                        "tokens": [
+                                            {
+                                                "text": "checkLocationPermission:",
+                                                "type": "macroName"
+                                            }
+                                        ],
+                                        "type": "macro"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "\n\n<!-- all ok - continue -->\n\n(goto: \"CheckBluetoothOn\")\n[[CheckBluetoothOn]]\n\n",
+                                "text": "[\n\n<!-- all ok - continue -->\n\n(goto: \"CheckBluetoothOn\")\n[[CheckBluetoothOn]]\n\n]",
+                                "tokens": [
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "innerText": " all ok - continue ",
+                                        "text": "<!-- all ok - continue -->",
+                                        "tokens": [
+                                            {
+                                                "text": " all ok - continue ",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "type": "comment"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "innerText": "goto: \"CheckBluetoothOn\"",
+                                        "name": "goto",
+                                        "text": "(goto: \"CheckBluetoothOn\")",
+                                        "tokens": [
+                                            {
+                                                "text": "goto:",
+                                                "type": "macroName"
+                                            },
+                                            {
+                                                "text": " ",
+                                                "type": "whitespace"
+                                            },
+                                            {
+                                                "innerText": "CheckBluetoothOn",
+                                                "text": "\"CheckBluetoothOn\"",
+                                                "type": "string"
+                                            }
+                                        ],
+                                        "type": "macro"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "innerText": "link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\"",
+                                        "name": "linkgoto",
+                                        "text": "(link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\")",
+                                        "tokens": [
+                                            {
+                                                "text": "link-goto:",
+                                                "type": "macroName"
+                                            },
+                                            {
+                                                "innerText": "CheckBluetoothOn",
+                                                "text": "\"CheckBluetoothOn\"",
+                                                "type": "string"
+                                            },
+                                            {
+                                                "text": ",",
+                                                "type": "comma"
+                                            },
+                                            {
+                                                "innerText": "CheckBluetoothOn",
+                                                "text": "\"CheckBluetoothOn\"",
+                                                "type": "string"
+                                            }
+                                        ],
+                                        "type": "macro"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    }
+                                ],
+                                "type": "hook"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": " location not enabled or no permission ",
+                        "text": "<!-- location not enabled or no permission -->",
+                        "tokens": [
+                            {
+                                "text": " location not enabled or no permission ",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "comment"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nHowever, in order to be able to guide you through the tour, I will need permission to access your location, even when the screen is turned off.\n\n[[Share my location]]\n\n",
+                        "text": "[\n\nHowever, in order to be able to guide you through the tour, I will need permission to access your location, even when the screen is turned off.\n\n[[Share my location]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "However, in order to be able to guide you through the tour, I will need permission to access your location, even when the screen is turned off.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Share my location\",\"Share my location\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Share my location\",\"Share my location\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Share my location",
+                                        "text": "\"Share my location\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Share my location",
+                                        "text": "\"Share my location\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nUm Sie durch die Tour führen zu können, benötige ich die Erlaubnis, auf Ihren Standort zuzugreifen, auch wenn der Bildschirm ausgeschaltet ist.\n\n[[Standort teilen->Share my location]]\n\n",
+                        "text": "[\n\nUm Sie durch die Tour führen zu können, benötige ich die Erlaubnis, auf Ihren Standort zuzugreifen, auch wenn der Bildschirm ausgeschaltet ist.\n\n[[Standort teilen->Share my location]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Um Sie durch die Tour führen zu können, benötige ich die Erlaubnis, auf Ihren Standort zuzugreifen, auch wenn der Bildschirm ausgeschaltet ist.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Standort teilen\",\"Share my location\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Standort teilen\",\"Share my location\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Standort teilen",
+                                        "text": "\"Standort teilen\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Share my location",
+                                        "text": "\"Share my location\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "audioNotOk",
+                "Pid": "3",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nPerhaps your headphones are not working or your volume is turned down.\n\nPlease press this button to try again.\n\n[[Try again->Start]]\n\n",
+                        "text": "[\n\nPerhaps your headphones are not working or your volume is turned down.\n\nPlease press this button to try again.\n\n[[Try again->Start]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Perhaps your headphones are not working or your volume is turned down.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Please press this button to try again.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Try again\",\"Start\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Try again\",\"Start\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Try again",
+                                        "text": "\"Try again\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Start",
+                                        "text": "\"Start\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nVielleicht funktioniert Ihr Kopfhörer nicht oder die Lautstärke ist zu niedrig.\n\nBitte drücken Sie diese Taste, um es erneut zu versuchen.\n\n[[Erneut versuchen->Start]]\n\n",
+                        "text": "[\n\nVielleicht funktioniert Ihr Kopfhörer nicht oder die Lautstärke ist zu niedrig.\n\nBitte drücken Sie diese Taste, um es erneut zu versuchen.\n\n[[Erneut versuchen->Start]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Vielleicht funktioniert Ihr Kopfhörer nicht oder die Lautstärke ist zu niedrig.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Bitte drücken Sie diese Taste, um es erneut zu versuchen.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Erneut versuchen\",\"Start\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Erneut versuchen\",\"Start\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Erneut versuchen",
+                                        "text": "\"Erneut versuchen\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Start",
+                                        "text": "\"Start\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    }
+                ]
+            },
+            {
+                "Name": "Share my location",
+                "Pid": "4",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "requestLocationPermission: \"locOk\", \"locFail\"",
+                        "name": "requestlocationpermission",
+                        "text": "(requestLocationPermission: \"locOk\", \"locFail\")",
+                        "tokens": [
+                            {
+                                "text": "requestLocationPermission:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "locOk",
+                                "text": "\"locOk\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "locFail",
+                                "text": "\"locFail\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "NotificationPermission",
+                "Pid": "5",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "checkNotificationPermission: \"notiCheckOk\", \"notiCheckFail\"",
+                        "name": "checknotificationpermission",
+                        "text": "(checkNotificationPermission: \"notiCheckOk\", \"notiCheckFail\")",
+                        "tokens": [
+                            {
+                                "text": "checkNotificationPermission:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "notiCheckOk",
+                                "text": "\"notiCheckOk\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "notiCheckFail",
+                                "text": "\"notiCheckFail\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "locOk",
+                "Pid": "6",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "set: $notificationcount to $notificationcount + 1",
+                        "name": "set",
+                        "text": "(set: $notificationcount to $notificationcount + 1)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "notificationcount",
+                                "text": "$notificationcount",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "notificationcount",
+                                "text": "$notificationcount",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "+",
+                                "type": "addition"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "1",
+                                "type": "number",
+                                "value": 1
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nThank you!\n\n",
+                        "text": "[\n\nThank you!\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Thank you!",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nVielen Dank!\n\n",
+                        "text": "[\n\nVielen Dank!\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Vielen Dank!",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "goto: \"CheckBluetoothOn\"",
+                        "name": "goto",
+                        "text": "(goto: \"CheckBluetoothOn\")",
+                        "tokens": [
+                            {
+                                "text": "goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "locFail",
+                "Pid": "7",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nI see you have not granted permission to use your location data. \n\nUnfortunately, I will not be able to guide you without it.\n\nPerhaps you clicked the wrong button?\n\nPlease press the button to try again.\n\n[[Share my location]]\n\n",
+                        "text": "[\n\nI see you have not granted permission to use your location data. \n\nUnfortunately, I will not be able to guide you without it.\n\nPerhaps you clicked the wrong button?\n\nPlease press the button to try again.\n\n[[Share my location]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I see you have not granted permission to use your location data. ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Unfortunately, I will not be able to guide you without it.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Perhaps you clicked the wrong button?",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Please press the button to try again.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Share my location\",\"Share my location\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Share my location\",\"Share my location\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Share my location",
+                                        "text": "\"Share my location\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Share my location",
+                                        "text": "\"Share my location\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nSie haben mir die Erlaubnis zur Verwendung Ihrer Standortdaten nicht erteilt.\n\nOhne diese kann ich Sie leider nicht begleiten.\n\nVielleicht haben Sie die falsche Taste gedrückt?\n\nBitte wiederholen Sie den Vorgang.\n\n[[Standort teilen->Share my location]]\n\n",
+                        "text": "[\n\nSie haben mir die Erlaubnis zur Verwendung Ihrer Standortdaten nicht erteilt.\n\nOhne diese kann ich Sie leider nicht begleiten.\n\nVielleicht haben Sie die falsche Taste gedrückt?\n\nBitte wiederholen Sie den Vorgang.\n\n[[Standort teilen->Share my location]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Sie haben mir die Erlaubnis zur Verwendung Ihrer Standortdaten nicht erteilt.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Ohne diese kann ich Sie leider nicht begleiten.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Vielleicht haben Sie die falsche Taste gedrückt?",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Bitte wiederholen Sie den Vorgang.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Standort teilen\",\"Share my location\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Standort teilen\",\"Share my location\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Standort teilen",
+                                        "text": "\"Standort teilen\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Share my location",
+                                        "text": "\"Share my location\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    }
+                ]
+            },
+            {
+                "Name": "notiCheckOk",
+                "Pid": "8",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "goto: \"CheckBluetoothOn\"",
+                        "name": "goto",
+                        "text": "(goto: \"CheckBluetoothOn\")",
+                        "tokens": [
+                            {
+                                "text": "goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "notiCheckFail",
+                "Pid": "9",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nI will also need your permission to send you notifications to inform you about interesting things nearby.\n\n[[Enable notifications]]\n\n",
+                        "text": "[\n\nI will also need your permission to send you notifications to inform you about interesting things nearby.\n\n[[Enable notifications]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I will also need your permission to send you notifications to inform you about interesting things nearby.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Enable notifications\",\"Enable notifications\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Enable notifications\",\"Enable notifications\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Enable notifications",
+                                        "text": "\"Enable notifications\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Enable notifications",
+                                        "text": "\"Enable notifications\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nIch brauche nun Ihre Erlaubnis, Sie mit Benachrichtigungen auf interessante Objekten in Ihrer Nähe hinweisen zu dürfen.\n\n[[Benachrichtigungen aktivieren->Enable notifications]]\n\n",
+                        "text": "[\n\nIch brauche nun Ihre Erlaubnis, Sie mit Benachrichtigungen auf interessante Objekten in Ihrer Nähe hinweisen zu dürfen.\n\n[[Benachrichtigungen aktivieren->Enable notifications]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Ich brauche nun Ihre Erlaubnis, Sie mit Benachrichtigungen auf interessante Objekten in Ihrer Nähe hinweisen zu dürfen.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Benachrichtigungen aktivieren\",\"Enable notifications\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Benachrichtigungen aktivieren\",\"Enable notifications\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Benachrichtigungen aktivieren",
+                                        "text": "\"Benachrichtigungen aktivieren\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Enable notifications",
+                                        "text": "\"Enable notifications\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    }
+                ]
+            },
+            {
+                "Name": "Enable notifications",
+                "Pid": "10",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "requestNotificationPermission: \"notiPermOk\", \"notiPermFail\"",
+                        "name": "requestnotificationpermission",
+                        "text": "(requestNotificationPermission: \"notiPermOk\", \"notiPermFail\")",
+                        "tokens": [
+                            {
+                                "text": "requestNotificationPermission:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "notiPermOk",
+                                "text": "\"notiPermOk\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "notiPermFail",
+                                "text": "\"notiPermFail\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "notiPermOk",
+                "Pid": "11",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n(if: $notificationcount is 0)[\n\nThanks you.\n\n](else:)[\n\nThanks again.\n\n]\n\n",
+                        "text": "[\n\n(if: $notificationcount is 0)[\n\nThanks you.\n\n](else:)[\n\nThanks again.\n\n]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "if: $notificationcount is 0",
+                                "name": "if",
+                                "text": "(if: $notificationcount is 0)",
+                                "tokens": [
+                                    {
+                                        "text": "if:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "name": "notificationcount",
+                                        "text": "$notificationcount",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "is",
+                                        "type": "is"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "0",
+                                        "type": "number"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "\n\nThanks you.\n\n",
+                                "text": "[\n\nThanks you.\n\n]",
+                                "tokens": [
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "Thanks you.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    }
+                                ],
+                                "type": "hook"
+                            },
+                            {
+                                "innerText": "else:",
+                                "name": "else",
+                                "text": "(else:)",
+                                "tokens": [
+                                    {
+                                        "text": "else:",
+                                        "type": "macroName"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "\n\nThanks again.\n\n",
+                                "text": "[\n\nThanks again.\n\n]",
+                                "tokens": [
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "Thanks again.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    }
+                                ],
+                                "type": "hook"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\n(if: $notificationcount is 0)[\n\nVielen Dank.\n\n](else:)[\n\nNochmals vielen Dank.\n\n]\n\n",
+                        "text": "[\n\n(if: $notificationcount is 0)[\n\nVielen Dank.\n\n](else:)[\n\nNochmals vielen Dank.\n\n]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "if: $notificationcount is 0",
+                                "name": "if",
+                                "text": "(if: $notificationcount is 0)",
+                                "tokens": [
+                                    {
+                                        "text": "if:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "name": "notificationcount",
+                                        "text": "$notificationcount",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "is",
+                                        "type": "is"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "0",
+                                        "type": "number"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "\n\nVielen Dank.\n\n",
+                                "text": "[\n\nVielen Dank.\n\n]",
+                                "tokens": [
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "Vielen Dank.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    }
+                                ],
+                                "type": "hook"
+                            },
+                            {
+                                "innerText": "else:",
+                                "name": "else",
+                                "text": "(else:)",
+                                "tokens": [
+                                    {
+                                        "text": "else:",
+                                        "type": "macroName"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "\n\nNochmals vielen Dank.\n\n",
+                                "text": "[\n\nNochmals vielen Dank.\n\n]",
+                                "tokens": [
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "Nochmals vielen Dank.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    },
+                                    {
+                                        "text": "\n",
+                                        "type": "br"
+                                    }
+                                ],
+                                "type": "hook"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "goto: \"CheckBluetoothOn\"",
+                        "name": "goto",
+                        "text": "(goto: \"CheckBluetoothOn\")",
+                        "tokens": [
+                            {
+                                "text": "goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"CheckBluetoothOn\",\"CheckBluetoothOn\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "CheckBluetoothOn",
+                                "text": "\"CheckBluetoothOn\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "notiPermFail",
+                "Pid": "12",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "if: $isenglish",
+                        "name": "if",
+                        "text": "(if: $isenglish)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "isenglish",
+                                "text": "$isenglish",
+                                "type": "variable"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nI am sorry, but these notifications are absolutely necessary in order for me to guide you through this experience.\n\nI promise not to overburden you with unnecessary notifications.\n\nPerhaps you will reconsider?\n\n[[Enable notifications]]\n\n",
+                        "text": "[\n\nI am sorry, but these notifications are absolutely necessary in order for me to guide you through this experience.\n\nI promise not to overburden you with unnecessary notifications.\n\nPerhaps you will reconsider?\n\n[[Enable notifications]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I am sorry, but these notifications are absolutely necessary in order for me to guide you through this experience.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "I promise not to overburden you with unnecessary notifications.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Perhaps you will reconsider?",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Enable notifications\",\"Enable notifications\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Enable notifications\",\"Enable notifications\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Enable notifications",
+                                        "text": "\"Enable notifications\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Enable notifications",
+                                        "text": "\"Enable notifications\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\nDiese Benachrichtigungen sind notwendig, damit ich Sie durch das Kulturforum führen kann.\n\nIch verspreche, Sie nicht mit unnötigen Nachrichten zu belästigen.\n\nVielleicht möchten Sie es sich noch einmal überlegen?\n\n[[Benachrichtigungen aktivieren->Enable notifications]]\n\n",
+                        "text": "[\n\nDiese Benachrichtigungen sind notwendig, damit ich Sie durch das Kulturforum führen kann.\n\nIch verspreche, Sie nicht mit unnötigen Nachrichten zu belästigen.\n\nVielleicht möchten Sie es sich noch einmal überlegen?\n\n[[Benachrichtigungen aktivieren->Enable notifications]]\n\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Diese Benachrichtigungen sind notwendig, damit ich Sie durch das Kulturforum führen kann.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Ich verspreche, Sie nicht mit unnötigen Nachrichten zu belästigen.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "Vielleicht möchten Sie es sich noch einmal überlegen?",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Benachrichtigungen aktivieren\",\"Enable notifications\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Benachrichtigungen aktivieren\",\"Enable notifications\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Benachrichtigungen aktivieren",
+                                        "text": "\"Benachrichtigungen aktivieren\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Enable notifications",
+                                        "text": "\"Enable notifications\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "CheckBluetoothOn",
+                "Pid": "13",
+                "Tags": "Bot",
+                "Tokens": [
+                    {
+                        "innerText": "loadScene: \"A_Onboarding_BT\"",
+                        "name": "loadscene",
+                        "text": "(loadScene: \"A_Onboarding_BT\")",
+                        "tokens": [
+                            {
+                                "text": "loadScene:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "A_Onboarding_BT",
+                                "text": "\"A_Onboarding_BT\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "StartNotificationPermission",
+                "Pid": "14",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"NotificationPermission\",\"NotificationPermission\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"NotificationPermission\",\"NotificationPermission\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "NotificationPermission",
+                                "text": "\"NotificationPermission\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "NotificationPermission",
+                                "text": "\"NotificationPermission\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "artworks":
+  [
+    {
+      "id": "artwork1",
+      "title_en": "Artwork 1",
+      "title_de": "Kunstwerk 1",
+      "author_en": "Author",
+      "author_de": "Autor",
+      "year": "2021",
+      "footer_en": "Artwork 1\nPhoto\nAuthor, production, photography\n2021\nPlace of manufacture: Planet Earth\n100,0 x 100,0 cm",
+      "footer_de": "Kunstwerk 1\nFoto\nAutor, Produktion, Photo\n2021\nOrt der Herstellung: Planet Erde\n100,0 x 100,0 cm",
+      "content_en": "This is a sample description.\n\nMore description after a paragraph.",
+      "content_de": "Eine Beispiel Beschreibung.\n\nMehr Beschreibung nach einem Paragraphen."
+    }
+  ]
+}
