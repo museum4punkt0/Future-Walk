@@ -94,9 +94,9 @@ This project uses addressables.
 
 This app uses Cradle to import and playback story scripts created in Twine using the story-scripting language *Harlowe-2*. Twine scripts are converted into C#-classes by Cradle automatically everytime the script changes or if requested manually.
 
-[twinery.org/]()<br>
-[https://twine2.neocities.org/2.html]()<br>
-[https://github.com/daterre/Cradle]()
+[twinery.org/](twinery.org/)<br>
+[https://twine2.neocities.org/2.html](https://twine2.neocities.org/2.html)<br>
+[https://github.com/daterre/Cradle](https://github.com/daterre/Cradle)
 
 The class `StoryController` is the main controller to deal with the story-classes created by Cradle. It scans for available storyscript classes, initiates lading stories and maintains the GameState (the history).
 
@@ -117,9 +117,9 @@ In the class `GlobalSettings` general strings are defined used in the app, it al
 This project uses addressables.  
 **Make sure to build the addressable catalogue before building for your device!**
 
-[https://learn.unity.com/project/getting-started-with-addressables]()<br>
-[https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html]()<br>
-[https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/]()
+[https://learn.unity.com/project/getting-started-with-addressables](https://learn.unity.com/project/getting-started-with-addressables)<br>
+[https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html](https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html)<br>
+[https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/](https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/)
 
 In the process of developing the internal Resources in the folder `Resources` were moved to the addressable system and its default folder `Resources_moved`.
 
@@ -226,7 +226,7 @@ This file contains information about artworks in english and german and can be u
 
 ##### map.geojson.json
 
-This file contains gps fences for the story and was created with: [http://geojson.io/#map=18/52.50845/13.36709]().
+This file contains gps fences for the story and was created with: [http://geojson.io/#map=18/52.50845/13.36709](http://geojson.io/#map=18/52.50845/13.36709).
 Please make sure to save the file as `GeoJSON` from the Save-Menu and rename it to `map.geojson.json `.
 To use geojson items in the story they need to have a property called `id`. Please use this id together with e.g.: `(waitForFence: "fence-id")`
 
@@ -237,7 +237,7 @@ Please have a look at: [Folderstructure](folderstructure.md)
 
 #### Writing twine scripts
 
-Download Twine for your System here: [https://twinery.org/]()
+Download Twine for your System here: [https://twinery.org/](https://twinery.org/)
 You find the example project in `Assets/Resources/project/`. To get started import the html files into Twine using `Import From File`.
 
 
