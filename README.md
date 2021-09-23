@@ -94,9 +94,9 @@ This project uses addressables.
 
 This app uses Cradle to import and playback story scripts created in Twine using the story-scripting language *Harlowe-2*. Twine scripts are converted into C#-classes by Cradle automatically everytime the script changes or if requested manually.
 
-[https://twinery.org/](https://twinery.org/){:target="_blank"}<br>
-[https://twine2.neocities.org/2.html](https://twine2.neocities.org/2.html){:target="_blank"}<br>
-[https://github.com/daterre/Cradle](https://github.com/daterre/Cradle){:target="_blank"}
+<a href="https://twinery.org/" target="_blank">https://twinery.org/</a><br>
+<a href="https://twine2.neocities.org/2.html" target="_blank">https://twine2.neocities.org/2.html</a><br>
+<a href="https://github.com/daterre/Cradle" target="_blank">https://github.com/daterre/Cradle</a>
 
 The class `StoryController` is the main controller to deal with the story-classes created by Cradle. It scans for available storyscript classes, initiates lading stories and maintains the GameState (the history).
 
@@ -117,9 +117,9 @@ In the class `GlobalSettings` general strings are defined used in the app, it al
 This project uses addressables.  
 **Make sure to build the addressable catalogue before building for your device!**
 
-[https://learn.unity.com/project/getting-started-with-addressables](https://learn.unity.com/project/getting-started-with-addressables){:target="_blank"}<br>
-[https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html](https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html){:target="_blank"}<br>
-[https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/](https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/){:target="_blank"}
+<a href="https://learn.unity.com/project/getting-started-with-addressables" target="_blank">https://learn.unity.com/project/getting-started-with-addressables</a><br>
+<a href="https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html" target="_blank">https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html</a><br>
+<a href="https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/" target="_blank">https://thegamedev.guru/unity-addressables/tutorial-learn-the-basics/</a>
 
 In the process of developing the internal Resources in the folder `Resources` were moved to the addressable system and its default folder `Resources_moved`.
 
@@ -164,8 +164,8 @@ Make sure GameObject "StoryController" has "Force Story Name" turned off. This f
 ### Compiling to Android
 
 - needs gradle 5.6.4 or later
-	[https://gradle.org/releases/](https://gradle.org/releases/){:target="_blank"}
-	[https://developers.google.com/ar/develop/unity/android-11-build](https://developers.google.com/ar/develop/unity/android-11-build){:target="_blank"}
+	<a href="https://gradle.org/releases/" target="_blank">https://gradle.org/releases/</a><br>
+	<a href="https://developers.google.com/ar/develop/unity/android-11-build" target="_blank">https://developers.google.com/ar/develop/unity/android-11-build</a>
 
 On Android the unityplayer needs to keep running even if the app is not in the foreground, otherwise audio stops working. To achieve this you need to adjust the file: `UnityPlayerActivity.java`<br>
 
@@ -226,7 +226,7 @@ This file contains information about artworks in english and german and can be u
 
 ##### map.geojson.json
 
-This file contains gps fences for the story and was created with: [http://geojson.io/#map=18/52.50845/13.36709](http://geojson.io/#map=18/52.50845/13.36709){:target="_blank"}.
+This file contains gps fences for the story and was created with: <a href="http://geojson.io/#map=18/52.50845/13.36709" target="_blank">http://geojson.io/#map=18/52.50845/13.36709</a>.
 Please make sure to save the file as `GeoJSON` from the Save-Menu and rename it to `map.geojson.json `.
 To use geojson items in the story they need to have a property called `id`. Please use this id together with e.g.: `(waitForFence: "fence-id")`
 
@@ -237,7 +237,7 @@ Please have a look at: [Folderstructure](folderstructure.md)
 
 #### Writing twine scripts
 
-Download Twine for your System here: [https://twinery.org/](https://twinery.org/){:target="_blank"}
+Download Twine for your System here: <a href="https://twinery.org/" target="_blank">https://twinery.org/</a><br>
 You find the example project in `Assets/Resources/project/`. To get started import the html files into Twine using `Import From File`.
 
 
@@ -291,7 +291,7 @@ NEEEU Spaces GmbH  – Javier Soto Morrás: j@neu.io - hello@neu.io
 
 This repository contains the open source parts of the museum4punkt0 Future Walk project for the Kulturforum Berlin. In order to run this project, you need to add the closed-source third-party library:
 
-[https://assetstore.unity.com/packages/tools/input-management/fingers-lite-free-finger-touch-gestures-for-unity-64276](https://assetstore.unity.com/packages/tools/input-management/fingers-lite-free-finger-touch-gestures-for-unity-64276){:target="_blank"}
+<a href="https://assetstore.unity.com/packages/tools/input-management/fingers-lite-free-finger-touch-gestures-for-unity-64276" target="_blank">https://assetstore.unity.com/packages/tools/input-management/fingers-lite-free-finger-touch-gestures-for-unity-64276</a><br>
 
 as instructed in the text file in that folder.
 All other third party libraries contain their own permissive open source licences.
