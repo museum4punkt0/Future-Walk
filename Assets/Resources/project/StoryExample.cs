@@ -193,7 +193,7 @@ public partial class @StoryExample: Cradle.StoryFormats.Harlowe.HarloweStory
 			yield return text("Es fühlt sich einfach gut an wenn ich aufwache.");
 			yield return lineBreak();
 			yield return lineBreak();
-			yield return text("Ein frischer Start in den neuen Tag, alles fphlt sich sauber und neu an.");
+			yield return text("Ein frischer Start in den neuen Tag, alles ist wie neu.");
 			yield return lineBreak();
 			yield return lineBreak();
 			yield return link("Ach so.", "showImage", null);
@@ -214,7 +214,7 @@ public partial class @StoryExample: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage4_Main()
 	{
-		yield return htmlTag("<img src=\"artwork1.png\"/>");
+		yield return htmlTag("<img src=\"artwork1\"/>");
 		yield return lineBreak();
 		yield return lineBreak();
 		if(Vars.isenglish) {
@@ -355,7 +355,7 @@ public partial class @StoryExample: Cradle.StoryFormats.Harlowe.HarloweStory
 			yield return text("This is where i plan going:");
 			yield return lineBreak();
 			yield return lineBreak();
-			yield return htmlTag("<Map src=\"outside_01.png\"/>");
+			yield return htmlTag("<Map src=\"outside_01\"/>");
 			yield return lineBreak();
 			yield return lineBreak();
 			yield return link("Ok. Let's go.", "walk", null);
@@ -373,7 +373,7 @@ public partial class @StoryExample: Cradle.StoryFormats.Harlowe.HarloweStory
 			yield return text("Hier wollte ich hin:");
 			yield return lineBreak();
 			yield return lineBreak();
-			yield return htmlTag("<Map src=\"outside_01.png\"/>");
+			yield return htmlTag("<Map src=\"outside_01\"/>");
 			yield return lineBreak();
 			yield return lineBreak();
 			yield return link("Ok. Lass uns gehen.", "walk", null);
