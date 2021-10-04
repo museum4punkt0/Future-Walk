@@ -161,9 +161,35 @@ To provide a more seamless experience the class `ARController` is used to blank 
 
 Make sure GameObject "StoryController" has "Force Story Name" turned off. This flag controls if the story starts with the last saved story or the first one found. If it is turned off it loads the story stored in the app settings hence starting at the last loaded story.
 
+### Compiling to iOS
+
+In case you experience compilation errors with the resulting XCode Project, please consider adding `#import <CoreFoundation/CoreFoundation.h>` in `Prefix.pch` so the header looks like this:
+
+```
+//
+// Prefix header
+//
+
+#include "Preprocessor.h"
+
+#ifdef __OBJC__
+    #import <CoreFoundation/CoreFoundation.h>
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+...
+```
+
+This seems to be a related issue:
+<a href="https://github.com/ryanw3bb/unity-native-toolkit/issues/35" target="_blank">https://github.com/ryanw3bb/unity-native-toolkit/issues/35</a>
+
+An issue was reported related to a file called `Locale.h` and `Locale.mm` present in both, the UnityFramework and iOS-Framework. Renaming this file in the UnitFramework solved this issue and the project could be compiled.
+
+
+
 ### Compiling to Android
 
-- needs gradle 5.6.4 or later
+- needs gradle version >= 5.6.4 and <= 6.9.1 (version 7.2 and up seems not to work) 
 	<a href="https://gradle.org/releases/" target="_blank">https://gradle.org/releases/</a><br>
 	<a href="https://developers.google.com/ar/develop/unity/android-11-build" target="_blank">https://developers.google.com/ar/develop/unity/android-11-build</a>
 
